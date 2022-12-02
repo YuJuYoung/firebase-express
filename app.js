@@ -10,7 +10,7 @@ app.use(express.urlencoded({
 
 var admin = require("firebase-admin");
 
-GOOGLE_APPLICATION_CREDENTIALS="./fir-test-c933b-firebase-adminsdk-5e2z0-8cbdd71d12.json"
+GOOGLE_APPLICATION_CREDENTIALS="./fir-test-c933b-firebase-adminsdk-5e2z0-8cbdd71d12.json";
 
 var serviceAccount = require(GOOGLE_APPLICATION_CREDENTIALS);
 
